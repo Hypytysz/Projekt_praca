@@ -1,4 +1,4 @@
-#Średnia
+#Średnia pieciu liczb podanych przez uzytkownika
 liczba1 = float(input("Podaj pierwsza liczbe:"))
 liczba2 = float(input("Podaj druga liczbe:"))
 liczba3 = float(input("Podaj trzecia liczbe:"))
