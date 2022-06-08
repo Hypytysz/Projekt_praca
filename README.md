@@ -1,2 +1,2 @@
 # Projekt_praca
-Książka telefoniczna
+Postępy moich prac związanych z programowaniem.
