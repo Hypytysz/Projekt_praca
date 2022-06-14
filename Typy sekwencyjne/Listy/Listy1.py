@@ -1,4 +1,4 @@
-#Program sortujący duplikaty w liście
+#Program sortujący duplikaty w liście 1
 import random
 lista = []
 duplikaty = []
