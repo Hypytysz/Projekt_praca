@@ -1,4 +1,4 @@
-#Program sortujący duplikaty z dwóch list
+#Program sortujący duplikaty z dwóch list 2
 import random
 lista = []
 lista2 = []
