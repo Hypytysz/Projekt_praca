@@ -1,4 +1,4 @@
-# Okrąg - promień, średnica, pole
+# Okrąg, kwadrat - bok, promień, średnica, obwód,  pole
 import math
 # class Figure:
 
