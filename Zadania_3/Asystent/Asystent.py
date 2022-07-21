@@ -4,6 +4,21 @@ import playsound
 from gtts import gTTS
 import os
 
+def valid():
+    plik = open("asystent.txt", "r", encoding="utf-8")
+    lista_x0 = []
+    lista_x1 = []
+    for i in plik:
+        x = i.split(";")
+        lista_x0.append(x[0])
+        lista_x1.append(x[1])
+    plik.close()
+    lista_x0.pop(0)
+    lista_x1.pop(-1)
+    if lista_x0 == lista_x1:
+        print("Your schedule is ok!")
+    else:
+        print("Times in your schedule must be upgrade! It's not match together!")
 
 def powiadomienie():
     run = True
@@ -27,4 +42,5 @@ def powiadomienie():
                 break
         plik.close()
 
+valid()
 powiadomienie()
